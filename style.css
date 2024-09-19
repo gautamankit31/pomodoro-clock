@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #C36868;
+    font-family: monospace;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B3BCBB;
+    outline: 3px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    width: 35rem;
+}
+
+.app #first-div {
+    outline: 2px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-label {
+    font-size: 1.25rem;
+    margin:-0.80rem 0 1rem 0;
+    text-transform: uppercase;
+}
+
+#time-left {
+    margin:-1.25rem 0 1rem 0;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+#start_stop, #reset {
+    outline: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    font-size: 0.75rem;
+    margin: -1rem 0.25rem;
+}
+
+.controls {
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.controls > div {
+    border-radius: 0.5rem;
+    background-color: #323232;
+    color: white;
+    padding:0 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cta-group {
+    background-color: #99BCC0;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    justify-content: center;
+    margin: 0.8rem 0.25rem;
+    padding: 0.5rem 1.5rem;
+}
+
+#break-length, #session-length {
+    color: black;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+#break-label, #session-label {
+    text-align: center;
+}
+
+#session-increment,#session-decrement,#break-increment,#break-decrement {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
