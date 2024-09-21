@@ -1,4 +1,4 @@
-# Pomodoro Clock ⏰
+# Pomodoro Clock ⏰ 
 
 A beautifully designed Pomodoro Clock app that helps boost productivity with focused work sessions and timed breaks. It includes features to extend your work sessions or breaks and an alarm feature to notify when time's up.
 
