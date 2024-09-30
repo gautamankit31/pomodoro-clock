@@ -12,7 +12,7 @@ A beautifully designed Pomodoro Clock app that helps boost productivity with foc
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/pomodoro-clock.git
+   git clone https://github.com/gautamankit31/pomodoro-clock.git
    cd pomodoro-clock
    open index.html
 
